@@ -15,6 +15,8 @@ namespace Exercice10
         public Form1()
         {
             InitializeComponent();
+            hScrollBar1.Minimum = 50;
+            hScrollBar1.Maximum = 89;
         }
 
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
